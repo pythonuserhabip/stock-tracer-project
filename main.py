@@ -16,11 +16,5 @@ with requests.Session() as s:
 
 
 
-        with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
-            connection.starttls()
-            connection.login(my_email, password)
-            connection.sendmail(from_addr=my_email,
-                                to_addrs="habip1834@gmail.com",
-                                msg=f"Subject:Weather!\n\nIt's rainy today, don't forget your umbrella"
-                                    )
 
+      
