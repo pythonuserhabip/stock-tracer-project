@@ -1,3 +1,3 @@
 # stock-tracer-project
- Stock tracking using requests, csv and smtplib libraries
-With the requests module, the required data of the required stock is obtained. Converted to readable format with csv. Send information mail with smtplib
+ Stock tracking using requests, csv 
+With the request module, the price information of the desired stock is obtained, converted into a format that can be read with csv and presented.
